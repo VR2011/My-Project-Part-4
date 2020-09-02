@@ -62,12 +62,6 @@ function setup() {
     space.width = 800;
     space.height = 800;
     rectMode(CENTER);
-    a_up = createSprite(600, 400, 31, 32);
-    a_up.addImage(up);
-    a_up.visible = false;
-    a_down = createSprite(600, 450, 31, 32);
-    a_down.addImage(down);
-    a_down.visible = false;
     recta = createSprite(150, 300, 50, 50);
     recta.addImage(rocket);
     recto = createSprite(recta.x - 40, recta.y + 80, 50, 50);
