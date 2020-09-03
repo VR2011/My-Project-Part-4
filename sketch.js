@@ -224,9 +224,6 @@ function draw() {
         rotate(x);
         image(earth, 0, 0, 1600, 1600);
         pop();
-
-        a_up.visible = true;
-        a_down.visible = true;
     
         textSize(20);
         fill(255);
